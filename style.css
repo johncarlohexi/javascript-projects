@@ -5,6 +5,7 @@
 
 .page-container {
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -14,11 +15,68 @@
 .page {
     height: 80%;
     width: 5rem;
-    background-color: rebeccapurple;
+
     margin: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
+
 .p1 {
-    width: 20rem;
+    width: 60%;
+    background-image: url(/imgs/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#p1-id.active {
+    width: 60%;
+
+}
+
+
+.p2 {
+    background-image: url(/imgs/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#p2-id.active {
+    width: 60%;
+
+}
+
+.p3 {
+    background-image: url(/imgs/soccer.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#p3-id.active {
+    width: 60%;
+}
+
+.p4 {
+    background-image: url(/imgs/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#p4-id.active {
+    width: 60%;
+}
+
+.p5 {
+    background-image: url(/imgs/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#p5-id.active {
+    width: 60%;
 }
