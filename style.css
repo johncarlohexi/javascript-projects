@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.page {
+    height: 80%;
+    width: 5rem;
+    background-color: rebeccapurple;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.p1 {
+    width: 20rem;
+}
