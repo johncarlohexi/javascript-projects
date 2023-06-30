@@ -23,17 +23,12 @@
 
 
 .p1 {
-    width: 60%;
     background-image: url(/imgs/building.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#p1-id.active {
-    width: 60%;
-
-}
 
 
 .p2 {
@@ -43,10 +38,7 @@
     background-position: center center;
 }
 
-#p2-id.active {
-    width: 60%;
 
-}
 
 .p3 {
     background-image: url(/imgs/soccer.avif);
@@ -55,9 +47,7 @@
     background-position: center center;
 }
 
-#p3-id.active {
-    width: 60%;
-}
+
 
 .p4 {
     background-image: url(/imgs/travel.jpg);
@@ -66,9 +56,6 @@
     background-position: center center;
 }
 
-#p4-id.active {
-    width: 60%;
-}
 
 .p5 {
     background-image: url(/imgs/work.jpg);
@@ -77,6 +64,6 @@
     background-position: center center;
 }
 
-#p5-id.active {
+.page.active {
     width: 60%;
 }
